@@ -109,7 +109,6 @@ main h5 {
   font-size: 13px;
   line-height: 20px;
   color: #272844;
-
   margin: 0;
 }
 
@@ -128,7 +127,7 @@ section {
   margin: 0 auto;
 }
 
-section .secondary {
+section.secondary {
   background: #f8f8f8;
 }
 .text-center {
@@ -140,7 +139,7 @@ section .secondary {
   display: block;
 }
 .img-responsive {
-  max-width: 100%;
+  width: 100%;
   display: block;
 }
 
@@ -155,6 +154,9 @@ section .secondary {
 .card-body {
   padding: 30px;
 }
+.card-header.grid {
+  grid-gap: 0;
+}
 
 .btn {
   display: block;
@@ -168,6 +170,11 @@ section .secondary {
   padding: 16px;
   background-color: #462cb3;
   text-decoration: none;
+}
+
+.embed {
+  width: 100%;
+  aspect-ratio: 21 / 14;
 }
 
 footer {
@@ -229,5 +236,12 @@ footer a {
   }
   .grid-2-columns {
     grid-template-columns: 1fr;
+  }
+
+  .card-header img {
+    display: none;
+  }
+  .embed {
+    aspect-ratio: 16 / 9;
   }
 }
