@@ -174,7 +174,7 @@ section.secondary {
 
 .embed {
   width: 100%;
-  aspect-ratio: 1 / 1;
+  aspect-ratio: 21 / 14;
 }
 
 .instagram-embed {
@@ -229,8 +229,9 @@ footer a {
   h2 {
     font-size: 20px;
   }
-  h3 {
-    font-size: 16px;
+  main h3 {
+    font-size: 25px;
+    text-align: center;
   }
   footer {
     padding: 50px;
